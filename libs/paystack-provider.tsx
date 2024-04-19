@@ -22,6 +22,6 @@ const PaystackProvider = ({
       {children}
     </PaystackContext.Provider>
   );
-};
+}; 
 
 export default PaystackProvider;
