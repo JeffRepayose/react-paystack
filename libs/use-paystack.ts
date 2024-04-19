@@ -2,7 +2,7 @@ import {useEffect} from 'react';
 import {HookConfig, InitializePayment} from './types';
 import usePaystackScript from './paystack-script';
 import {callPaystackPop} from './paystack-actions';
-
+ 
 export default function usePaystackPayment(hookConfig: HookConfig): InitializePayment {
   const [scriptLoaded, scriptError] = usePaystackScript();
 
