@@ -12,7 +12,7 @@ const PaystackContext = createContext<IPaystackContext>({
   config: {} as PaystackProps,
   initializePayment: () => null,
   onSuccess: () => null,
-  onClose: () => null,
+  onClose: () => null, 
 });
 
 export default PaystackContext;
