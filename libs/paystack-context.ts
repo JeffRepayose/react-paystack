@@ -6,7 +6,7 @@ type IPaystackContext = {
   initializePayment: InitializePayment; 
   onSuccess: () => void;
   onClose: () => void;
-};
+}; 
 
 const PaystackContext = createContext<IPaystackContext>({ 
   config: {} as PaystackProps,
