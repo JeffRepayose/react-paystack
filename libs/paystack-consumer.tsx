@@ -11,7 +11,7 @@ interface PaystackConsumerProps extends PaystackProps {
 
 const PaystackConsumerChild = ({
   children,
-  ref,
+  ref, 
 }: {
   children: any;
   ref: any;
