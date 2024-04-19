@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react';
 
 const cachedScripts: string[] = [];
-interface IScriptResult {
+interface IScriptResult { 
   loaded: boolean;
   error: boolean;  
 }
