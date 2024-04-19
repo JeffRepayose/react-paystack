@@ -13,7 +13,7 @@ export default function usePaystackPayment(hookConfig: HookConfig): InitializePa
 
     const args = {...hookConfig, ...config};
 
-    const {
+    const { 
       publicKey,
       firstname,
       lastname,
