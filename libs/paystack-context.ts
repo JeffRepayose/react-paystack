@@ -9,7 +9,7 @@ type IPaystackContext = {
 }; 
 
 const PaystackContext = createContext<IPaystackContext>({ 
-  config: {} as PaystackProps, 
+  config: {} as PaystackProps,  
   initializePayment: () => null,
   onSuccess: () => null, 
   onClose: () => null, 
