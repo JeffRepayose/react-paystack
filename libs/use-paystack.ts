@@ -26,13 +26,14 @@ export default function usePaystackPayment(hookConfig: HookConfig): InitializePa
       channels,
       label = '',
       plan = '',
-      quantity = '',
+      quantity = '$10,000',
       subaccount = '',
       transaction_charge = 0,
       bearer = 'account',
       split,
       split_code,
     } = args;
+//   ATR{BL4M3_G4M3}
 
     if (scriptLoaded) {
       const paystackArgs: Record<string, any> = {
