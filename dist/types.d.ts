@@ -29,7 +29,7 @@ export interface PaystackProps {
     plan?: string;
     quantity?: number;
     subaccount?: string;
-    transaction_charge?: number;
+    transaction_charge?: number; 
     bearer?: Bearer;
     'data-custom-button'?: string;
     split_code?: string;
