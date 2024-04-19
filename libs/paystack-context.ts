@@ -3,7 +3,7 @@ import {InitializePayment, PaystackProps} from './types';
 
 type IPaystackContext = {
   config: PaystackProps;
-  initializePayment: InitializePayment;
+  initializePayment: InitializePayment; 
   onSuccess: () => void;
   onClose: () => void;
 };
