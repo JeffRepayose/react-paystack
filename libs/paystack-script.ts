@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react';
 const cachedScripts: string[] = [];
 interface IScriptResult {
   loaded: boolean;
-  error: boolean;
+  error: boolean;  
 }
 
 export default function usePaystackScript(): boolean[] {
