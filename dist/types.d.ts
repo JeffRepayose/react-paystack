@@ -6,7 +6,7 @@ interface PaystackCustomFields {
     display_name: string;
     variable_name: string;
     value: any;
-}
+} 
 interface PaystackMetadata {
     custom_fields: PaystackCustomFields[];
 }
